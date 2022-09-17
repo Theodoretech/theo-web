@@ -90,14 +90,14 @@
 	<distributionManagement>
 	    <repository>
 	      <id>nexus</id>
-	      <name>artifact-release-repo</name>
-	      <url>http://54.146.155.99:8081/repository/artifact-release-repo/</url>
+	      <name>artifact-re-repo</name>
+	      <url>http://3.94.169.213:8081/repository/artifact-re-repo/</url>
 	    </repository>
 	    
 	    <snapshotRepository>
 	      <id>nexus</id>
-	      <name>articact-snapshot-repo</name>
-	      <url>http://54.146.155.99:8081/repository/articact-snapshot-repo/</url>
+	      <name>artifact-sn-repo</name>
+	      <url>http://3.94.169.213:8081/repository/artifact-sn-repo/</url>
 	    </snapshotRepository>
 	    
 	</distributionManagement>
