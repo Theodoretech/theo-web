@@ -90,20 +90,20 @@
 	<distributionManagement>
 	    <repository>
 	      <id>nexus</id>
-	      <name>artifact-re-repo</name>
-	      <url>http://3.94.169.213:8081/repository/artifact-re-repo/</url>
+	      <name>release-repository</name>
+	      <url>http://52.205.255.235:8081/repository/release-repository/</url>
 	    </repository>
 	    
 	    <snapshotRepository>
 	      <id>nexus</id>
-	      <name>artifact-sn-repo</name>
-	      <url>http://3.94.169.213:8081/repository/artifact-sn-repo/</url>
+	      <name>snapshot-repository</name>
+	      <url>http://52.205.255.235:8081/repository/snapshot-repository/</url>
 	    </snapshotRepository>
 	    
 	</distributionManagement>
 	
 	<build>
-		<finalName>maven-web-app</finalName>
+		<finalName>ashutech-app</finalName>
 		
 		<plugins>
 			<plugin>
