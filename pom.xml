@@ -93,6 +93,11 @@
 	      <name>release-repository</name>
 	      <url>http://52.205.255.235:8081/repository/release-repository/</url>
 	    </repository>
+	   <repository>
+                 <id>nexus</id>
+               <name>maven_nexus_proxy_repo</name>
+              <url>http://52.205.255.235:8081/repository/maven_nexus_proxy_repo/</url>
+           </repository>
 	    
 	    <snapshotRepository>
 	      <id>nexus</id>
