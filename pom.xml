@@ -103,7 +103,7 @@
 	</distributionManagement>
 	
 	<build>
-		<finalName>ashutech-app</finalName>
+		<finalName>latech-app</finalName>
 		
 		<plugins>
 			<plugin>
