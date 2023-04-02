@@ -22,8 +22,8 @@
 		<spring.version>5.1.2.RELEASE</spring.version>
 		<junit.version>4.11</junit.version>
 		<log4j.version>1.2.17</log4j.version>
-		<sonar.host.url>http://172.31.17.43:9000/</sonar.host.url>
-		<sonar.login>125d14665eb5548f001bae7935ee45d8f684f6ac</sonar.login>
+		<sonar.host.url>http://172.31.24.193:9000/</sonar.host.url>
+		<sonar.login>c4d59cddc6d1b9318d89470e755c29e0d050c78a</sonar.login>
 	  <!--  <sonar.password>admin</sonar.password>  -->
 		<project.build.sourceEncoding>UTF-8</project.build.sourceEncoding>
 		<project.reporting.outputEncoding>UTF-8</project.reporting.outputEncoding>
@@ -91,19 +91,19 @@
 	    <repository>
 	      <id>nexus</id>
 	      <name>release-repository</name>
-	      <url>http://52.205.255.235:8081/repository/release-repository/</url>
+	      <url>http://54.197.39.127:8081/repository/tesla-releases/</url>
 	    </repository>
 	    
 	    <snapshotRepository>
 	      <id>nexus</id>
 	      <name>snapshot-repository</name>
-	      <url>http://52.205.255.235:8081/repository/snapshot-repository/</url>
+	      <url>http://54.197.39.127:8081/repository/tesla-snapshot/</url>
 	    </snapshotRepository>
 	    
 	</distributionManagement>
 	
 	<build>
-		<finalName>mytec-app</finalName>
+		<finalName>theotech</finalName>
 		
 		<plugins>
 			<plugin>
